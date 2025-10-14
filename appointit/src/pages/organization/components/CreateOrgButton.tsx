@@ -1,10 +1,8 @@
 import { Button } from "@/components/ui/button";
 import {
   Sheet,
-  SheetClose,
   SheetContent,
   SheetDescription,
-  SheetFooter,
   SheetHeader,
   SheetTitle,
   SheetTrigger,
@@ -31,11 +29,6 @@ export default function CreateOrgButton() {
         <div className="grid flex-1 auto-rows-min gap-6 px-4">
           <CreateOrgForm />
         </div>
-        <SheetFooter>
-          <SheetClose asChild>
-            <Button variant="outline">Close</Button>
-          </SheetClose>
-        </SheetFooter>
       </SheetContent>
     </Sheet>
   );

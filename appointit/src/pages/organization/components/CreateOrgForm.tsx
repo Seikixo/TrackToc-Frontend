@@ -108,7 +108,9 @@ export default function CreateOrgForm() {
         />
       </div>
 
-      <Button type="submit">{isPending ? <Loader /> : "Submit"}</Button>
+      <Button type="submit" className="w-full mt-4 cursor-pointer">
+        {isPending ? <Loader /> : "Submit"}
+      </Button>
     </form>
   );
 }
